@@ -7,4 +7,4 @@ The source of this mass information is NASA ( https://nssdc.gsfc.nasa.gov ).
 
 
 How to use it:
-	Just run the update_masses.py with python3 to update the masses, which will be added to the JSON info.
+	Just run update_masses.py with python3 to update the masses, which will be added to the JSON info.
