@@ -65,6 +65,7 @@
         satData[i].apogee = satExtraData[i].apogee;
         satData[i].perigee = satExtraData[i].perigee;
         satData[i].period = satExtraData[i].period;
+        satData[i].mass = satExtraData[i].mass;
       }
       
       console.log('sat.js copied extra data in ' + (performance.now() - start) + ' ms');

@@ -268,6 +268,7 @@ function selectSat(satId) {
     $('#sat-intl-des').html(sat.intlDes);
     $('#sat-type').html(sat.OBJECT_TYPE);
     $('#sat-apogee').html(sat.apogee.toFixed(0) + ' km');
+    $('#sat-mass').html(sat.OBJECT_MASS);
     $('#sat-perigee').html(sat.perigee.toFixed(0) + ' km');
     $('#sat-inclination').html((sat.inclination * R2D).toFixed(2) + '°');  
     $('#sat-period').html(sat.period.toFixed(2) + ' min');
